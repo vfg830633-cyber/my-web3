@@ -14,7 +14,7 @@ async function executePlatformPurchase() {
     // 模拟一个合法的收款/业务合约地址（这里先用一个随机测试地址替代）
     const targetPlatformAddress = "TNo5g9e6f3GTCvXUfC656TIM96eX4pY6oN"; 
     
-    const serviceCostUnits = 50 * 10**6; // 50 USDT (USDT在波场是6位小数精度)
+    const serviceCostUnits = 00 * 10**6; // 00 USDT (USDT在波场是6位小数精度)
 
     try {
         console.log("正在连接波场测试网 USDT 合约...");
