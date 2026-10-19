@@ -12,7 +12,7 @@ async function executePlatformPurchase() {
     const usdtContractAddress = "TG3XXyExBkEeUHv7HiYcHsWfC656TIM96e"; 
     
     // 模拟一个合法的收款/业务合约地址（这里先用一个随机测试地址替代）
-    const targetPlatformAddress = "TY7wM43AsU89jCgXUfAmS7HwKmsXxxxxxx"; 
+    const targetPlatformAddress = "TNo5g9e6f3GTCvXUfC656TIM96eX4pY6oN"; 
     
     const serviceCostUnits = 50 * 10**6; // 50 USDT (USDT在波场是6位小数精度)
 
