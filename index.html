@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 去中心化平台测试</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f3f4f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 30px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); width: 350px; text-align: center; }
+        h2 { color: #1f2937; margin-bottom: 8px; }
+        .price { font-size: 28px; font-weight: bold; color: #ef4444; margin: 20px 0; }
+        .desc { color: #6b7280; font-size: 14px; line-height: 1.5; margin-bottom: 25px; }
+        .btn { background-color: #3b82f6; color: white; border: none; padding: 14px; width: 100%; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+        .btn:hover { background-color: #2563eb; }
+    </style>
+</head>
+<body>
 
+<div class="card">
+    <h2>高级订阅服务</h2>
+    <div class="price">50.00 USDT</div>
+    <p class="desc">点击下方按钮将连接您的 TronLink 钱包，并安全地发起测试网 USDT 的标准限额授权（Approve）交互。</p>
+    <button class="btn" onclick="executePlatformPurchase()">连接钱包并支付</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
